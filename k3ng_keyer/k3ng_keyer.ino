@@ -1356,6 +1356,8 @@ If you offer a hardware kit using this software, show your appreciation by sendi
   #include "keyer_features_and_options_iz3gme.h"
 #elif defined(HARDWARE_YCCC_SO2R_MINI)
   #include "keyer_features_and_options_yccc_so2r_mini.h"  
+#elif defined(HARDWARE_MFS)
+  #include "keyer_features_and_options_mfs.h"
 #else
   #include "keyer_features_and_options.h"
 #endif
@@ -1433,6 +1435,9 @@ If you offer a hardware kit using this software, show your appreciation by sendi
 #elif defined(HARDWARE_YCCC_SO2R_MINI)
   #include "keyer_pin_settings_yccc_so2r_mini.h"
   #include "keyer_settings_yccc_so2r_mini.h"  
+#elif defined(HARDWARE_MFS)
+  #include "keyer_pin_settings_mfs.h"
+  #include "keyer_settings_mfs.h"
 #else
   #include "keyer_pin_settings.h"
   #include "keyer_settings.h"
